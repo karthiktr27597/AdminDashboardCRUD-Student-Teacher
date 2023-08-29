@@ -66,7 +66,7 @@ function TeacherPage() {
                             <th>S.No</th>
                             <th>Tr.Id</th>
                             <th>Name</th>
-                            <th>Class</th>
+                            <th>Subject</th>
                             <th>Rating</th>
                             <th>Actions</th>
                         </tr>
