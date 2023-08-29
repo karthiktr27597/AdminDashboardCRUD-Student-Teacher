@@ -1,0 +1,9 @@
+.TeacherPageMain .bi-pencil-fill:hover {
+    color: orange;
+    font-size: larger;
+}
+
+.TeacherPageMain .bi-person-x:hover {
+    color: red;
+    font-size: larger;
+}

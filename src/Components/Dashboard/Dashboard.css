@@ -1,0 +1,25 @@
+.Student {
+    color: green;
+}
+
+.Student button {
+    color: green;
+}
+
+.Teacher {
+    color: blue;
+}
+
+.Teacher button {
+    color: blue;
+}
+
+
+
+.DashboardMain button {
+    padding: 10px;
+    border-radius: 10px;
+    border-color: pink;
+    font-size: large;
+}
+

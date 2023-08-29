@@ -1,0 +1,14 @@
+.Homemain {
+    background-image: url("../Images/school-background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.Homemain h1 {
+    color: white;
+}
+
+.Homemain .datadisplay {
+    padding: 223px 0px;
+    font-weight: bolder;
+}

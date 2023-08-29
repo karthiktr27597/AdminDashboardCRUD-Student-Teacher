@@ -1,0 +1,34 @@
+/* .colorful-text {
+    background: linear-gradient(45deg, #FF5733, #FFC300);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+} */
+
+.colorful-text {
+    background: linear-gradient(135deg, #ff1234, blue, rgb(255, 110, 137));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: large;
+    font-weight: 600;
+}
+
+.nav-link-hover {
+    position: relative;
+    text-decoration: none;
+}
+
+.nav-link-hover::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    width: 0px;
+    height: 2px;
+    background: linear-gradient(135deg, #ff1234, blue, rgb(255, 110, 137));
+    transition: width 0.3s ease-in-out;
+}
+
+.nav-link-hover:hover::before {
+    width: 100%;
+}

@@ -1,0 +1,9 @@
+.bi-pencil-fill:hover {
+    color: orange;
+    font-size: larger;
+}
+
+.bi-person-x:hover {
+    color: red;
+    font-size: larger;
+}
