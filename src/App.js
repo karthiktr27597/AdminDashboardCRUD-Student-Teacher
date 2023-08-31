@@ -7,6 +7,8 @@ import TeacherPage from "./Components/TeacherPage";
 import EditData from "./Components/EditData";
 import ContextProvider from "./Components/Data/ContextProvider";
 import NoPage from "./Components/NoPage";
+import AddStudent from "./Components/AddData/AddStudent";
+import AddTeacher from "./Components/AddData/AddTeacher";
 
 
 
@@ -20,6 +22,8 @@ function App() {
           <Route path="/students" element={<StudentPage />} />
           <Route path="/teachers" element={<TeacherPage />} />
           <Route path="/edit/:id" element={<EditData />} />
+          <Route path="/add-student" element={<AddStudent />} />
+          <Route path="/add-teacher" element={<AddTeacher />} />
           <Route path="*" element={<NoPage />} />
         </Routes>
       </ContextProvider>

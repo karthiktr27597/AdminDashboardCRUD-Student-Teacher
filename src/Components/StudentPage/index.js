@@ -71,7 +71,7 @@ function StudentPage() {
 
     return (
         <div className='StudentPage'>
-            <NavbarPage searchValue={searchTerm} onSearchChange={handleSearchChange} show={"show"} />
+            <NavbarPage searchValue={searchTerm} onSearchChange={handleSearchChange} show={"show"} addStudent={'Add Student'}/>
             {
                 message && <p style={{ color: "green", fontSize: 20, marginBottom: 0 }}>{message}</p>
             }

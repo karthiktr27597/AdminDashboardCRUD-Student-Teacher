@@ -4,8 +4,11 @@ import NavbarPage from '../Navbar';
 import "./Home.css"
 
 function Home() {
+
+
     return (
         <div className='HomePage'>
+            {console.log('check from Home')}
             <div className='Header'>
                 <NavbarPage />
             </div>

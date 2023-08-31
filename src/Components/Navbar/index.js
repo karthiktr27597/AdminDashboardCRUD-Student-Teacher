@@ -8,7 +8,7 @@ import Offcanvas from 'react-bootstrap/Offcanvas';
 import { Link } from 'react-router-dom';
 import "./Navbar.css";
 
-function NavbarPage({ searchValue, onSearchChange, show }) {
+function NavbarPage({ searchValue, onSearchChange, show, addStudent, addTeacher }) {
 
     return (
         <>
@@ -30,6 +30,14 @@ function NavbarPage({ searchValue, onSearchChange, show }) {
                             <Nav className="justify-content-end flex-grow-1 pe-3">
                                 <Nav.Link as={Link} to="/" className='nav-link-hover'><b>Home</b></Nav.Link>
                                 <Nav.Link as={Link} to="/dashboard" className='nav-link-hover'><b>Dashboard</b></Nav.Link>
+                                {
+                                    addStudent &&
+                                    <Nav.Link as={Link} to="/add-student" className='nav-link-hover'><b>{addStudent}</b></Nav.Link>
+                                }
+                                {
+                                    addTeacher &&
+                                    <Nav.Link as={Link} to="/add-teacher" className='nav-link-hover'><b>{addTeacher}</b></Nav.Link>
+                                }
                             </Nav>
                             {
                                 show &&

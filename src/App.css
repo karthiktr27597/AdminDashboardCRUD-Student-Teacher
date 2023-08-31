@@ -7,7 +7,9 @@
 .Dashboard,
 .StudentPage,
 .TeacherPage,
-.EditDataPage {
+.EditDataPage,
+.AddStudentPage,
+.AddTeacherPage {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -29,6 +31,8 @@ footer p {
 .StudentPage,
 .TeacherPage,
 .EditDataPage,
-.NoPage {
+.NoPage,
+.AddStudentPage,
+.AddTeacherPage {
   background: linear-gradient(135deg, rgb(255, 174, 174), rgb(175, 175, 254), rgb(255, 195, 205))
 }
